@@ -1,0 +1,20 @@
+h1 {
+    font-family: Crimson Text, serif;
+    font-size: 3em;
+    padding: 1em;
+}
+
+body {
+    background-color: #faf8f4;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f2e8d3;
+}
+
+footer a {
+    color: black;
+    font-family: Iowan Old Style, serif;
+}
