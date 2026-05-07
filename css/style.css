@@ -1,20 +1,95 @@
+header {
+    padding: none;
+}
+
 h1 {
     font-family: Crimson Text, serif;
-    font-size: 3em;
-    padding: 1em;
+    font-size: 5em;
+    padding: .5em;
+    text-align: center;
+}
+
+.byline {
+    font-family: Iowan Old Style, serif;
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.timeline {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.graphic1 {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.graphic3 {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.graphic2 {
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 body {
     background-color: #faf8f4;
+
 }
 
 footer {
     text-align: center;
-    padding: 1em;
+    margin-top: 4em;
     background-color: #f2e8d3;
+    padding: 1em;
 }
 
 footer a {
     color: black;
     font-family: Iowan Old Style, serif;
+}
+
+@media (min-width: 768px) {
+    .graphic1 {
+        display: block;
+    }
+
+    .graphic1mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .graphic1 {
+        display: none;
+    }
+
+    .graphic1mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .graphic2 {
+        display: block;
+    }
+
+    .graphic2mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .graphic2 {
+        display: none;
+    }
+
+    .graphic2mobile {
+        display: block;
+    }
 }
