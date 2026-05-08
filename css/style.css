@@ -35,8 +35,10 @@ h1 {
 }
 
 .graphic2 {
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
 body {
